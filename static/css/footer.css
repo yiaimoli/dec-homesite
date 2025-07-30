@@ -17,8 +17,9 @@
 .footer-inner {
   display: flex;
   justify-content: space-between;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   line-height: 1rem;
+  padding-right: 2rem;
   padding-bottom: 3.75rem;
   border-bottom: 1px solid rgba(255, 255, 255, 15%);
 }
@@ -52,8 +53,8 @@
 }
 
 .scan {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
   box-sizing: border-box;
   /*background: #f1f2f6;*/
   border-radius: 0.25rem;
@@ -78,7 +79,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 
 .footer-bottom-left {
@@ -169,8 +170,8 @@
   }
 
   .scan {
-    width: 88px;
-    height: 88px;
+    width: 100px;
+    height: 100px;
     box-sizing: border-box;
     background: #f1f2f6;
     border-radius: 4px;
