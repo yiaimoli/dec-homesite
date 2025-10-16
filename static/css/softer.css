@@ -1,0 +1,60 @@
+.softer-banner img{
+  width: 100%;
+  height: auto;
+}
+
+.softer-content{
+  padding: 4.375rem 7.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.softer-title{
+  text-align: left;
+  color:#1F2122;
+  font-size:2.5rem;
+  line-height: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.softer-item-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  color:#000;
+  font-size: 1.5rem;
+}
+
+
+.softer-card{
+  display: flex;
+  gap:2.5rem;
+}
+
+.softer-card:last-child{
+  margin-top: 1.5rem;
+}
+
+.softer-item{
+  border-top: 3px solid #F0591C;
+  background: #FFF2E3;
+  padding: 2.5rem 2rem ;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  gap:4rem;
+}
+.softer-item-body .desc{
+  color: #1F2122;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+  font-weight: 300;
+}
+
+.softer-item-right{
+  height: 100%;
+  align-items: center;
+  display: flex;
+}

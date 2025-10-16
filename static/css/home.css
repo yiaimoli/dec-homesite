@@ -66,6 +66,19 @@ html {
   width: 16.25rem;
 }
 
+.button-base {
+  height: 3rem;
+  box-sizing: border-box;
+  line-height: 3rem;
+  border-radius: 3rem;
+  background: #f0591c;
+  font-size: 0.875rem;
+  color: #fff;
+  width: 7.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .container-top {
   /* height: 39.625rem; */
   padding: 5.25rem 0;
@@ -720,20 +733,3 @@ html {
   }
 }
 
-.download-text {
-  color: #00f;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.download-page {
-  display: flex;
-  justify-content: center;
-}
-
-.download-page > div {
-  border: 1px solid #d1d1d1;
-  margin-top: 10px;
-  padding: 10px 40px;
-  border-radius: 4px;
-}
