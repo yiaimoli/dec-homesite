@@ -1,5 +1,13 @@
-.softer-banner img{
+.softer-page{
+  padding-top: 64px;
+}
+
+.softer-banner{
   width: 100%;
+  min-height: 30rem;
+  background: url("../img/softer/banner.png") no-repeat;
+  background-size: 100% auto;
+  background-position: right;
   height: auto;
 }
 
@@ -57,4 +65,23 @@
   height: 100%;
   align-items: center;
   display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+  .softer-page{
+    padding-top: 63px;
+  }
+  .softer-banner{
+    height: 480px;
+    width: auto;
+    background-size: auto 100%;
+  }
+  .softer-card{
+    flex-direction: column;
+  }
+
+  .softer-content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

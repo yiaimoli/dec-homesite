@@ -53,6 +53,7 @@ html {
   background: #f0591c;
   font-size: 0.875rem;
   color: #fff;
+  cursor: pointer;
 }
 
 .button-lg {
@@ -273,6 +274,7 @@ html {
   line-height: 3rem;
   border-radius: 1.5rem;
   text-align: center;
+  cursor: pointer;
 }
 
 .erp-segmented-item-label {
@@ -586,6 +588,7 @@ html {
     padding: 50px 0;
     height: 1030px;
     box-sizing: border-box;
+    position: relative;
   }
 
   .erp-title {

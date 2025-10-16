@@ -1,10 +1,20 @@
-.product-banner img{
+.product-page{
+  padding-top: 64px;
+}
+
+.product-banner{
   width: 100%;
+  min-height: 30rem;
+  background: url("../img/product/banner.png") no-repeat;
+  background-size: 100% auto;
+  background-position: right;
   height: auto;
+  /*width: 100%;*/
+  /*height: auto;*/
 }
 
 .product-content{
-  padding: 4.375rem 0;
+  padding: 4.375rem 7.5rem;
   display: flex;
   justify-content: center;
 }
@@ -19,6 +29,7 @@
 
 .product-item-top{
   display: flex;
+  flex: 1;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
@@ -69,4 +80,28 @@
 
 .product-item-body img{
   width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .product-page{
+    padding-top: 63px;
+  }
+  .product-banner{
+    height: 480px;
+    width: auto;
+    background-size: auto 100%;
+  }
+  .product-card{
+    flex-direction: column;
+  }
+
+  .product-content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
+  .product-item{
+    width: 100%;
+  }
 }
